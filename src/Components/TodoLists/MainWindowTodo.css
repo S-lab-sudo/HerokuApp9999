@@ -1,0 +1,11 @@
+.mainWindowTodo{
+    display: grid;
+    grid-template-rows: 10fr 1fr;
+    height: 70%;
+    width: 85%;
+    background: rgb(255 255 255 / 20%);
+    overflow: scroll;
+    grid-gap: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}

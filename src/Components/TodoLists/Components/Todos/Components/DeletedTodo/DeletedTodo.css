@@ -1,0 +1,80 @@
+.deletedTodo{
+    border-radius: 5px;
+    padding: 0.7em;
+    background-color: rgb(196 196 196 / 20%);
+    text-align: center;
+}
+.deletedTodos{
+    background: #55ac53;
+}
+.deletedTodoToggleButton>button{
+    height: 80%;
+    width: 40%;
+    border-radius: 40px;
+    content: '';
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+.deletedTodoToggleButton{
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 2fr;
+}
+.slideBar{
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    top: 10%;
+    left: 5%;
+    content: '';
+    background: #eee;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.ccc6{
+    background-color: #ccc6;
+}
+
+.greenBackground{
+    background-color: #55ac53;
+}
+
+.moveRight{
+    animation: moveRightNow forwards 0.25s ease-in-out;
+}
+@keyframes moveRightNow {
+    0%{
+        left: 8%;
+    }
+    100%{
+        left: 55%;
+    }
+    /* 100%{
+        transform: translateX(50px);
+    } */
+}
+.moveLeft{
+    animation: moveLeftNow forwards 0.25s ease-in-out;
+}
+@keyframes moveLeftNow {
+    0%{
+        left: 55%;
+    }
+    100%{
+        left: 8%;
+    }
+}
+
+.topDownLoad{
+    animation: 2s ease-out 0s forwards loadTopDown;
+}
+@keyframes loadTopDown {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 50%;
+    }
+}

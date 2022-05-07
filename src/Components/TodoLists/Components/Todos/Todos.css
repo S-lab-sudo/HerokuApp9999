@@ -1,0 +1,17 @@
+.todos{
+    padding: 2em;
+    overflow: scroll;
+    background: rgba(17, 17, 17, 0.7);
+    border-radius: 10px;
+}
+.neutral{
+    border-radius: 5px;
+    padding: 0.45em;
+    margin-top: 0.5em;
+    background-color: rgb(196 196 196 / 20%);
+    text-align: center;
+}
+.deleteSection{
+    height: 100%;
+    overflow: auto;
+}

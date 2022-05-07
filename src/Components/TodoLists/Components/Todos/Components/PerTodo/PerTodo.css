@@ -1,0 +1,33 @@
+.todoHolder{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.4em 3em 0.4em 0.4em;
+}
+.todoTitle{
+    font-size: 20px;
+    text-align: left;
+}
+.deleteTodo{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.todoDate{
+    font-size: 12px;
+}
+.todo{
+    border-radius: 5px;
+    padding: 0.45em;
+    margin-top: 0.5em;
+    background-color: #3f51b5;
+}
+
+.todoTitleAndDateHolder{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+}
+.todoTitleAndDateHolder>*{
+    text-align: left;
+}

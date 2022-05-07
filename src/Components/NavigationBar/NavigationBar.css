@@ -1,0 +1,45 @@
+.navigationBar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+    justify-content: center;
+    background-color: rgba(71, 72, 72, 60%);
+}
+.isActive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.55em 1em; 
+    margin-left: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(110, 255, 107, 0.6);
+    transition: 0.2s;
+}
+.isActive:hover{
+    background: rgba(110, 255, 107, 0.8);
+    box-shadow: 0 0 10px rgba(110, 255, 107, 0.8);
+}
+.isNotActive{
+    padding: 0.5em 1em; 
+    margin-left: 1em;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+.isNotActive:hover{
+    background: rgb(41 121 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(41 121 255);
+}

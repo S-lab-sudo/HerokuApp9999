@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  color: #fff;
+  font-family: 'Nova Round', cursive;
+}
+#root,.Main,html,body{
+  height: 100vh;
+  width: 100vw;
+}
+
+/* CENTER A DIV */
+.centeredDiv{
+  display: grid;
+  place-items: center;
+}
+/* FULL HEIGHT WIDTH */
+.fhw{
+  height: 100%;
+  width: 100%;
+}
+
+.bgimg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('./wall.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+  left: 0;
+}
+
+a{
+  text-decoration: none;
+}
